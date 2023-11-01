@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="CRUD.css">
+	<title></title>
+</head>
+<body>
+	<div class="container">
+		<form action="" autocomplete="off">
+			<h2 align="center" style="color: whitesmoke;" >REGISTRATION FORM</h2>
+				<div class="formDiv">
+					<div>
+						<label>User Name </label><br>
+						<input type="text" placeholder="  Enter your name here" id="userName"><br><br>
+					</div>
+					<div>
+						<label>Email-Id</label><br>
+						<input type="text" placeholder="  Enter your email id here" id="email"><br><br>
+					</div>
+					<div>
+						<label>Phone No </label><br>
+						<input type="text" required maxlength="10" pattern="[6-9]{1}[0-9]{9}" id="phone" size="10"><br><br>
+					</div>
+					<div>
+						<label>City</label><br>
+						<input type="text" id="city"><br><br>
+					</div>
+	
+					<div class="buttn">
+						<input type="button" value="SUBMIT" onclick="enterData()" class="sbmt">
+						<input type="reset" value="RESET" class="rst">
+					</div>
+				</div>
+			</form>
+	</div>
+	<div class="data" align="center">
+		<h1 align="center" style="color: whitesmoke;">Registration Data </h1>
+		<div class="table">
+			<table id="studentList" width="80%" border="2px" style="border-color: whitesmoke;" cellspacing="0px" cellspadding="3px" >
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Email</th>
+						<th>Phone</th>
+						<th>City</th>
+						<th class="act">Actions</th>
+					</tr>
+				</thead>
+				<tbody></tbody>
+			</table>
+		</div>
+	</div>
+
+	<script src="CRUD.js" ></script>
+</body>
+</html>

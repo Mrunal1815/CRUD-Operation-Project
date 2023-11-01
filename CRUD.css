@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url("https://www.syncfusion.com/blogs/wp-content/uploads/2020/04/How-to-Build-a-CRUD-Operations-Using-ASP.NET-Core-5.0-preview2-and-Entity-Fram.jpg");
+    background-size: 100%;
+
+}
+.formDiv{
+    margin-top: 20px;
+}
+.container{
+/*    background-image: linear-gradient(to left, rgb(215, 34, 86), rgb(236, 240, 30));*/
+    border: 5px double whitesmoke;
+    height: 450px;
+    width: 350px;
+    margin-top: 70px;
+    margin-left: 60px;
+    padding: 20px;
+}
+input{
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 23px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    margin-top: 5px;
+    padding: 5px;
+}
+input:hover{
+    transform: scale(1.1);
+}
+.buttn input{
+   width: 35%; 
+   height: 30px;
+   border-radius: 20px;
+   margin: 20px;
+   border: transparent;
+   color: white;
+   font-size: 15px;
+   background-color: rgb(2, 19, 28) ;
+   cursor: pointer;
+}
+.sbmt:hover{
+    transform: scale(0.9);
+    background-color: green;
+}
+.rst:hover{
+    transform: scale(0.9);
+    background-color: red;
+}
+.data{
+    margin-top: -500px;
+    margin-left: 630px;
+    width: 50%;
+    height: 500px;
+/*    border: 2px solid black;*/
+    border-radius: 30px;
+    color: white;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+.table{
+    width=500px;
+    height: auto;
+    color: white;
+    border-color: white;
+}
